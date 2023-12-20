@@ -5,7 +5,7 @@ import rclpy
 from rclpy.node import Node
 from person_msgs.srv import Query
 
-def cd(request, response):
+def cb(request, response):
     if request.name == "kento tsutsui":
         response.age = 20
     else:
