@@ -9,7 +9,7 @@
 
   * lessen9
     * 講義内で独自のメッセージ型を作成した。
-    * 独自のメッセージ型(Person)は、'name'と'age'を送受信する。
+    * 独自のメッセージ型(Person)は、`name`と`age`を送受信する。
     * パッケージは、リポジトリを分けて置いてある。([こちら](https://github.com/kentotutui/person_msgs))
 
 ## テスト環境
