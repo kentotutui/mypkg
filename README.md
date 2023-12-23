@@ -43,7 +43,7 @@ $ ros2 run mypkg listener
 ```
 
 ## launchの使い方
-talkerとlistenerを同時に動かせるようにしたファイルです。
+talkerとlistenerを同時に動かせるようにしたノードです。
 
 動作させるときは以下のコマンドを打ち込んでください。
 
