@@ -14,11 +14,15 @@
 
   * lessen9
     * 講義内で独自のメッセージ型を作成しました。
-    * 独自のメッセージ型(Person)は、`name`と`age`を送受信します。
-    * パッケージは、リポジトリを分けて置いてあります。([こちら](https://github.com/kentotutui/person_msgs))
+    * 独自のメッセージ型(Query)は、`name`と`age`を送受信します。
+    * Query型の定義ファイルは、リポジトリを分けて置いてあります。([こちら](https://github.com/kentotutui/person_msgs))
 
 ## トピックについて
-このパッケージ内で使われるトピックは、Int16型で整数を扱います。
+  * master
+    * master内で使われるトピックは、Int16型で整数を扱います。
+
+  * lessen9
+    * lessen9内で使われるトピックは、string型とuint8型を扱います。
 
 ## talkerの使い方
 0.5秒ずつカウントアップしてトピック(countup)を通じて送信するノードです。
