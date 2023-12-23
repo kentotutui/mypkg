@@ -25,6 +25,7 @@
 ```shell
 $ ros2 run mypkg talker
 ```
+(画面には何も表示されません)
 
 ## listenerの使い方
 トピック(countup)を受信するノードです。
@@ -33,6 +34,9 @@ $ ros2 run mypkg talker
 
 ```shell
 $ ros2 run mypkg listener
+[INFO] [1703314540.253223410] [listener]: Listen: 1
+[INFO] [1703314540.732753899] [listener]: Listen: 2
+[INFO] [1703314541.231645432] [listener]: Listen: 3
 ```
 
 ## launchの使い方
@@ -42,6 +46,9 @@ talkerとlistenerを同時に動かせるようにしたファイルです。
 
 ```shell
 $ ros2 launch mypkg talk_listen.launch.py 
+[listener-2] [INFO] [1703315431.311982248] [listener]: Listen: 0
+[listener-2] [INFO] [1703315431.792204733] [listener]: Listen: 1
+[listener-2] [INFO] [1703315432.292378318] [listener]: Listen: 2
 ```
 
 
