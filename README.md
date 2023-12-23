@@ -1,5 +1,5 @@
-# Talker & Listener
-## robosys2023 ROS 2
+# Talker & Listener ROS 2
+## robosys2023 mypkg
 千葉工業大学 未来ロボティクス学科 2023年度 ロボットシステム学内で行った内容をROS 2パッケージにしたものです。
 
 [![test](https://github.com/kentotutui/robosys2023_ROS-2/actions/workflows/test.yml/badge.svg)](https://github.com/kentotutui/robosys2023_ROS-2/actions/workflows/test.yml)
@@ -18,8 +18,21 @@
     * パッケージは、リポジトリを分けて置いてある。([こちら](https://github.com/kentotutui/person_msgs))
 
 ## talkerの使い方
+0.5秒ずつカウントアップするノードです。
+
+単体で動作させるとき
+
+```shell
+$ ros2 run mypkg talker
+```
 
 ## listenerの使い方
+
+単体で動作させるとき
+
+```shell
+$ ros2 run mypkg listener
+```
 
 ## launchの使い方
 
