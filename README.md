@@ -9,10 +9,10 @@
 
 ## ブランチの説明
   * master branch
-    * lessen9の内容を除いた、lessen11までを実装したパッケージです。
+    * lesson9の内容を除いた、lesson11までを実装したパッケージです。
     * talker・listenerをclassで記述しました。
 
-  * lessen9 branch
+  * lesson9 branch
     * 講義内で独自のメッセージ型を作成しました。
     * 独自のメッセージ型(Query)は、`name`と`age`を送受信します。
     * Query型の定義ファイルは、リポジトリを分けて置いてあります。([こちら](https://github.com/kentotutui/person_msgs))
@@ -21,8 +21,8 @@
   * master branch
     * master内で使われるトピック(countup)は、Int16型で整数を扱います。
 
-  * lessen9 branch
-    * lessen9内で使われるトピック(query)は、string型とuint8型を扱います。
+  * lesson9 branch
+    * lesson9内で使われるトピック(query)は、string型とuint8型を扱います。
 
 ## talkerの使い方
 0.5秒ずつカウントアップしてトピック(countup)を通じて送信するノードです。
