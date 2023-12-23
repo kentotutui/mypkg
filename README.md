@@ -34,7 +34,7 @@ $ ros2 run mypkg talker
 
 ```shell
 $ ros2 run mypkg listener
-[listener-2] [INFO] [1703325539.355998965] [listener]: age: 20
+[INFO] [1703340715.167159511] [listener]: age: 20
 ```
 
 ## launchの使い方
