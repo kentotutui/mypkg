@@ -9,32 +9,41 @@
 
 ## ブランチの説明
   * master
-    * lessen9の内容を除いた、lessen11までを実装したパッケージ。
-    * talker・listenerをclassで記述し直した。
+    * lessen9の内容を除いた、lessen11までを実装したパッケージです。
+    * talker・listenerをclassで記述しました。
 
   * lessen9
-    * 講義内で独自のメッセージ型を作成した。
-    * 独自のメッセージ型(Person)は、`name`と`age`を送受信する。
-    * パッケージは、リポジトリを分けて置いてある。([こちら](https://github.com/kentotutui/person_msgs))
+    * 講義内で独自のメッセージ型を作成しました。
+    * 独自のメッセージ型(Person)は、`name`と`age`を送受信します。
+    * パッケージは、リポジトリを分けて置いてあります。([こちら](https://github.com/kentotutui/person_msgs))
 
 ## talkerの使い方
-0.5秒ずつカウントアップするノードです。
+0.5秒ずつカウントアップしてトピック(countup)を通じて送信するノードです。
 
-単体で動作させるとき
+単体で動作させるときは以下のコマンドを打ち込んでください。
 
 ```shell
 $ ros2 run mypkg talker
 ```
 
 ## listenerの使い方
+トピック(countup)を受信するノードです。
 
-単体で動作させるとき
+単体で動作させるときは以下のコマンドを打ち込んでください。
 
 ```shell
 $ ros2 run mypkg listener
 ```
 
 ## launchの使い方
+talkerとlistenerを同時に動かせるようにしたファイルです。
+
+動作させるときは以下のコマンドを打ち込んでください。
+
+```shell
+$ ros2 launch mypkg talk_listen.launch.py 
+```
+
 
 ## 著作権・ライセンス
   * このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されます。
