@@ -12,6 +12,9 @@
     * lesson9の内容を除いた、lesson11までを実装したパッケージです。
     * talker・listenerをclassで記述しました。
 
+  * lesson9 branch
+    * lesson9の内容はブランチを分けています。
+
 ## トピックについて
   * master branch
     * master内で使われるトピック(countup)は、Int16型で整数を扱います。
