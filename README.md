@@ -1,5 +1,5 @@
 # Talker & Listener ROS 2
-## robosys2023 mypkg
+## robosys2023_mypkg
 千葉工業大学 未来ロボティクス学科 2023年度 ロボットシステム学内で行った内容をROS 2パッケージにしたものです。
 
 [![test](https://github.com/kentotutui/robosys2023_mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/kentotutui/robosys2023_mypkg/actions/workflows/test.yml)
@@ -8,16 +8,15 @@
   * Ubuntu 22.04 LTS
 
 ## ブランチの説明
-  * master branch
+  * master
     * lesson9の内容を除いた、lesson11までを実装したパッケージです。
-    * talker・listenerをclassで記述しました。
 
-  * lesson9 branch
+  * lesson9
     * lesson9の内容はブランチを分けています。
 
 ## トピックについて
   * master branch
-    * master内で使われるトピック(countup)は、Int16型で整数を扱います。
+    * master内で使われるトピック(countup)は、Int16型です。
 
 ## talkerの使い方
 0.5秒ずつカウントアップしてトピック(countup)を送信するノードです。
