@@ -1,8 +1,5 @@
-# Talker & Listener ROS 2 (lesson9)
-
-## robosys2023_mypkg
+# robosys2023_mypkg
 千葉工業大学 未来ロボティクス学科 2023年度 ロボットシステム学内で行ったlesson9までの内容をROS 2パッケージにしたものです。
-
 
 ## テスト環境
   * Ubuntu 22.04 LTS
