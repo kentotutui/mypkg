@@ -15,9 +15,8 @@
     * lesson9の内容はブランチを分けています。
 
 ## トピックについて
-  * master branch
-    * master内で使われるトピック(countup)は、Int16型です。
-
+  * master内で使われるトピック(countup)は、Int16型です。
+  
 ## talkerの使い方
 0.5秒ずつカウントアップしてトピック(countup)を送信するノードです。
 
