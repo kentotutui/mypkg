@@ -1,4 +1,4 @@
-# robosys2023_mypkg
+# mypkg
 千葉工業大学 未来ロボティクス学科 2023年度 ロボットシステム学内で行った内容をROS 2パッケージにしたものです。
 
 [![test](https://github.com/kentotutui/robosys2023_mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/kentotutui/robosys2023_mypkg/actions/workflows/test.yml)
@@ -12,6 +12,7 @@
 
   * lesson9
     * lesson9の内容はブランチを分けています。
+    * lesson9のREADMEに詳しい説明が書かれています。
 
 ## トピックについて
   * master内で使われるトピック(countup)は、Int16型です。
